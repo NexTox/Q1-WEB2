@@ -4,6 +4,10 @@ import Cinema from "./Cinema";
 
 import PageTitle from "./PageTitle";
 
+import Footer from "./Footer";
+
+import Header from "./Header";
+
 
 const App = () => {
   const pageTitle = "Informations sur les films dans les cinémas";
@@ -54,11 +58,19 @@ const moviesCinema2: Movie[] =[
   
   return (
     <div>
+      <Header url="https://plus.unsplash.com/premium_photo-1704583083886-686622e6712c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8">
+      <h1>NexCHeeeeestzer</h1>
+      </Header>
+
       <PageTitle title={pageTitle} />
 
       <Cinema name={cinema1Name} movies= {moviesCinema1} />
 
       <Cinema name={cinema2Name} movies={moviesCinema2} />
+
+      <Footer url="https://plus.unsplash.com/premium_photo-1704583083886-686622e6712c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8">
+      <p>NexChester</p>
+      </Footer>
     </div>
   );
 };
