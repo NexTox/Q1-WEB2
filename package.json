@@ -1,5 +1,9 @@
 {
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
     "vite-plugin-checker": "^0.8.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
   }
 }
